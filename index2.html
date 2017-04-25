@@ -3,80 +3,83 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
-</head><style>
-       #leftpic {
-		   width:160px;
-		   float:left;
-		   padding-right:15px;
-		   }
-	   #leftpic a:link,  #leftpic a:visited {
-		   color:#006eb3;
-		   text-decoration:none;
-		   }
-	  #leftpic a:hover {
-		  color:#000000;
-		  text-decoration:underline;
-		  }
-	   img {
-		   borger:1px solid #0066b0;
-		   margin-bottom:5px;
-		   }
-		ul#list {
-			list-style-type:none;
-			margin:0px;
-			padding:5px 0px 5px 2px;
-			}
-	   ul#list li {
-		   line-height:18px;
-		   }
-		ul#list li a:link {
-			color:#000000;
-			text-decoration:none;
-			}
-		ul#list li a:visited {
-			color:#333333;
-			text-decoration:none;
-			}
-		ul#list li a:hover {
-			color:#006eb3;
-			text-decoration:underline;
-			}
-		body {
-			margin:10px;
-			}
-		#content {
-			border-left:1px solid #11a3ff;
-			border-right:1px solid #11a3ff;
-			border-bottom:1px solid #11a3ff;
-			padding:15px;
-			font-size:12px;
-			}
-	   ul#tabnav {
-		   list-style-type:none;
-		   margin:0px;
-		   padding-left:0px;
-		   padding-bottom:23px;
-		   border-bottom:1px solid #11a3ff;
-		   font:bold 12px verdana, arial;
-		   }
-		ul#tabnav li {
-			float:left;
-			height:22px;
-			background-color:#a3dbff;
-			margin:0px 3px 0px 0px;
-			border:1px solid #11a3ff;
-			}
-		ul#tabnav a:link, ul#tabnav a:visited {
-			display:block;
-			color:#006eb3;
-			text-decoration:none;
-			padding:5px 10px 3px 10px;
-			}
-	       ul#tabnav a:hover {
-	            background-color:#006eb3;
-	            color:#ffffff;
-	            }
-	     body#home li.home, body#news li.news,
+</head>
+<style>
+<!--
+#leftpic {
+	width:160px;
+	float:left;
+	padding-right:15px;
+}
+#leftpic a:link, #leftpic a:visited {
+	color:#006eb3;
+	text-decoration:none;
+}
+#leftpic a:hover {
+	color:#000000;
+	text-decoration:underline;
+}
+img {
+		border:1px	solid #0066b0;
+		margin-bottom:5px;
+}
+ul#list {
+	list-style-type:none;
+	margin:0px;
+	padding:5px 0px 5px 2px;
+}
+ul#list li {
+	line-height:18px;
+}
+ul#list li a:link {
+	color:#000000;
+	text-decoration:none;
+}
+ul#list li a:visited {
+	color:#333333;
+	text-decoration:none;
+}
+ul#list li a:hover {
+	color:#006eb3;
+	text-decoration:underline;
+}
+-->	
+body {
+	margin:10px;
+}
+#content {
+	border-left:1px solid #11a3ff;
+	border-right:1px solid #11a3ff;
+	border-bottom:1px solid #11a3ff;
+	padding:15px;
+	font-size:12px;
+}
+ul#tabnav {
+	list-style-type:none;
+	margin:0px;
+	padding-left:0px;
+	padding-bottom:23px;
+	border-bottom:1px solid #11a3ff;
+	font:bold 12px	verdana, arial;
+}
+ul#tabnav li{
+	float:left;
+	height:22px;
+	background-color:#a3dbff;
+	margin:0px 3px 0px 0px;
+	border:1px solid #11a3ff;
+}
+ul#tabnav a:link, ul#tabnav a:visited {
+	display:block;
+	color:#006eb3;
+	text-decoration:none;
+	padding:5px 10px 3px 10px;
+}
+ul#tabnav a:hover {
+	background-color:#006eb3;
+	color:#FFFFFF;
+}
+ body#home li.home, body#news li.news,
 	     body#sports li.sports, body#music li.music,
 	     body#nextstation li.nextation,
 	     body#blog li.blog {
@@ -87,34 +90,54 @@
 	    body#home li.home a:link, body#home li.home a:visited,
 	    body#news li.news a:link,body#news li.news a:visited,
 	    body#sports li.sports a:link,body#sports li.sports a:visited,
-	    bosy#music li.music a:linl,
+	    body#music li.music a:linl,body#music li.music a:visited,
+		body#nextstation li.nextation a:link,
+		body#nextstation li.nextation a:visited,
+		body#blog li.blog a:link,  body#blog li.blog a:visited {
+			color:#000000;
+			background-color:#ffffff;
+			}
+	    body#home li.home a:hover, body#news li.news a:hover,
+		body#sports li.sports a:hover,
+		body#music li.music a:hover,
+		body#nextstation li.nextation a:hover,
+		body#blog li.blog a:hover {
+			color:#006eb3;
+			text-decoration:underline;
+			}
+		
+	
+	
 </style>
 
+<body>
 <body id="home">
-<ul class="tabnav">
-     <li class="home"><a href="tab_home.html">首页</a></li>
-     <li class="news"><a href="tab_news.html">新闻</a></li>
-     <li class="sports"><a href="tab_sports.html">体育</a></li>
-     <li class="music"><a href="tab_music.html">音乐</a></li>
-     <li class="nextstation"><a href="tab_nextstation.html">下一站</a>
-     </li>
-     <li class="blog"><a href="tab_blog.html">博客</a></li>
-</ul>
+<ul id="tabnav">
+	<li class="home"><a href="Tab_home.html">首页</a></li>
+    <li class="news"><a href="Tab_news.html">新闻</a></li>
+    <li class="sports"><a href="Tab_sports.html">体育</a></li>
+    <li class="music"><a href="Tab_music.html">音乐</a></li>
+	<li class="nextstation"><a href="Tab_nextstation.html">下一站</a></li>
+	<li class="blog"><a href="Tab_blog.html">博客</a></li>
+</ul>    
 <div id="content">
-      <span id="leftpic">
-            <a href="#"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492495919528&di=678ba67decb0468b50dda14e6b74acf2&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F16%2F69%2F38%2F42v58PICzEP_1024.jpg" width="150" height="100"><br>
-      <center>追忆往事，展望未来</center></a>
-  </span>
-       <ul id="list">
-         <li><a href="#">[首页] 追忆往事，展望未来。新年寄语</a></li>
-         <li><a href="#">[新闻] 每年五一,十一长假，很多人不愿出门</a></li>
-         <li><a href="#">[新闻] 清华大学电子系研制成功新一代...</a></li>
-         <li><a href="#">[体育] 奥运火炬接力火热进行</a></li>
-         <li><a href="#">[音乐] 网民调查，你最喜欢的音乐类型</a></li>
-         <li><a href="#">[博客] 自由博客新版正式发布，网友...</a></li>
-    </ul>
+	<span id="leftpic">
+    	<a href="#"><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1492495919528&amp;di=678ba67decb0468b50dda14e6b74acf2&amp;imgtype=0&amp;src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F16%2F69%2F38%2F42v58PICzEP_1024.jpg" alt="" width="150" height="100" /><br>
+        <center>
+        追忆往事，展望未来
+    </center></a>
+	</span>        
+    <ul id="list">
+   	  <li><a href="#">[首页] 追忆往事，展望未来。新年寄语 </a></li>
+        <li><a href="#">[新闻] 每年五一，十一长假，很多人不愿出门 </a></li>
+        <li><a href="#">[新闻] 新华大学电子系研制成功新一代... </a></li>
+        <li><a href="#">[体育] 奥运火炬接力火热进行 </a></li>
+        <li><a href="#">[音乐] 网民调查—你最喜欢的音乐类型 </a></li>
+        <li><a href="#">[博客] 自由博客新版正式发布，网友... </a></li>
+  </ul>
 </div>
-s
-
+</body>            
+      
+                    
 </body>
 </html>
